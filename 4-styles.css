@@ -511,7 +511,7 @@ body {
 /*-----------*/
 
 
-/* === Section Results === */
+/* === Section Contact === */
 
 .contact {
     width: 100%;
@@ -592,5 +592,53 @@ body {
 /*-----------*/
 
 
-/* === Section Results === */
+/* === Section Footer === */
+
+.footer {
+    height: 15.5625rem;
+    position: relative;
+    bottom: 0;
+    background: #071629;
+}
+
+.footer-container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
+}
+
+.footer p {
+    text-align: center;
+    color: #FFF;
+    font-family: "Source Sans 3";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width:1090px) {
+    .footer-container {
+        gap: 27rem;
+    }
+}
+
+@media (max-width:780px) {
+    .footer-container {
+        gap: 17rem;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
 /*-----------*/
