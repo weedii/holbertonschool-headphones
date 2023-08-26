@@ -511,8 +511,7 @@ body {
 /*-----------*/
 
 
-
-/* === Section Contact === */
+/* === Section Results === */
 
 .contact {
     width: 100%;
@@ -584,10 +583,14 @@ body {
     line-height: normal;
 }
 
-@media (max-width:480px){
-    .contact-container input{
+@media (max-width:480px) {
+    .contact-container input {
         width: 16rem;
     }
 }
 
+/*-----------*/
+
+
+/* === Section Results === */
 /*-----------*/
