@@ -34,6 +34,10 @@ body {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: #FF6565;
+}
+
 .nav-item {
     padding: 10px;
 }
