@@ -570,6 +570,7 @@ body {
     height: 2.75rem;
     border-radius: 1.375rem;
     background: #FF6565;
+    border: none;
     color: #FFF;
     text-align: center;
     font-family: "Source Sans 3";
